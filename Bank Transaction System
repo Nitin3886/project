@@ -1,0 +1,225 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+struct Book {
+    string ISBN;
+    string title;
+    string author;
+    int quantity;
+
+    Book(const string& i = "", const string& t = "", const string& a = "", int q = 0)
+        : ISBN(i), title(t), author(a), quantity(q) {}
+};
+
+class BookManager {
+private:
+    vector<Book> books;
+    const string filename = "books.dat";
+
+    void loadBooks() {
+        ifstream file(filename, ios::binary);
+        if(file) {
+            Book book;
+            while(file >> book.ISBN >> ws && getline(file, book.title) &&
+                  getline(file, book.author) && file >> book.quantity) {
+                books.push_back(book);
+                file.ignore();
+            }
+        }
+    }
+
+public:
+    BookManager() { loadBooks(); }
+
+    ~BookManager() {
+        ofstream file(filename, ios::binary);
+        for(const auto& book : books) {
+            file << book.ISBN << '\n'
+                 << book.title << '\n'
+                 << book.author << '\n'
+                 << book.quantity << '\n';
+        }
+    }
+
+    void addBook(const Book& book) {
+        books.push_back(book);
+    }
+
+    bool removeBook(const string& isbn) {
+        auto it = find_if(books.begin(), books.end(),
+            [&isbn](const Book& b) { return b.ISBN == isbn; });
+        if(it != books.end()) {
+            books.erase(it);
+            return true;
+        }
+        return false;
+    }
+
+    Book* findBook(const string& isbn) {
+        auto it = find_if(books.begin(), books.end(),
+            [&isbn](const Book& b) { return b.ISBN == isbn; });
+        return it != books.end() ? &*it : nullptr;
+    }
+
+    const vector<Book>& getAllBooks() const { return books; }
+};
+
+class User {
+protected:
+    const int id;
+    string name;
+
+public:
+    User(int i, const string& n) : id(i), name(n) {}
+    virtual ~User() = default;
+    virtual void showMenu(BookManager&) = 0;
+};
+
+class Librarian : public User {
+public:
+    Librarian() : User(0, "Admin") {}
+
+    void showMenu(BookManager& bm) override {
+        int choice;
+        do {
+            cout << "\nLibrarian Menu:\n"
+                 << "1. Add Book\n"
+                 << "2. Remove Book\n"
+                 << "3. List All Books\n"
+                 << "4. Search Book\n"
+                 << "5. Exit\n"
+                 << "Choice: ";
+            cin >> choice;
+            cin.ignore();
+
+            switch(choice) {
+                case 1: {
+                    string isbn, title, author;
+                    int qty;
+                    cout << "Enter ISBN: "; getline(cin, isbn);
+                    cout << "Enter title: "; getline(cin, title);
+                    cout << "Enter author: "; getline(cin, author);
+                    cout << "Enter quantity: "; cin >> qty;
+                    bm.addBook(Book(isbn, title, author, qty));
+                    cout << "Book added!\n";
+                    break;
+                }
+                case 2: {
+                    string isbn;
+                    cout << "Enter ISBN to remove: "; getline(cin, isbn);
+                    if(bm.removeBook(isbn)) cout << "Book removed!\n";
+                    else cout << "Book not found!\n";
+                    break;
+                }
+                case 3: {
+                    cout << "\nAll Books:\n";
+                    for(const auto& book : bm.getAllBooks()) {
+                        cout << "ISBN: " << book.ISBN << "\nTitle: " << book.title
+                             << "\nAuthor: " << book.author << "\nQuantity: "
+                             << book.quantity << "\n\n";
+                    }
+                    break;
+                }
+                case 4: {
+                    string isbn;
+                    cout << "Enter ISBN to search: "; getline(cin, isbn);
+                    Book* book = bm.findBook(isbn);
+                    if(book) {
+                        cout << "Title: " << book->title << "\nAuthor: " << book->author
+                             << "\nQuantity: " << book->quantity << "\n";
+                    } else {
+                        cout << "Book not found!\n";
+                    }
+                    break;
+                }
+            }
+        } while(choice != 5);
+    }
+};
+
+class Member : public User {
+public:
+    Member(int i) : User(i, "User" + to_string(i)) {}
+
+    void showMenu(BookManager& bm) override {
+        int choice;
+        do {
+            cout << "\nUser Menu:\n"
+                 << "1. Search Book\n"
+                 << "2. Borrow Book\n"
+                 << "3. Return Book\n"
+                 << "4. Exit\n"
+                 << "Choice: ";
+            cin >> choice;
+            cin.ignore();
+
+            switch(choice) {
+                case 1: {
+                    string isbn;
+                    cout << "Enter ISBN to search: "; getline(cin, isbn);
+                    Book* book = bm.findBook(isbn);
+                    if(book) {
+                        cout << "Title: " << book->title << "\nAuthor: " << book->author
+                             << "\nAvailable: " << book->quantity << "\n";
+                    } else {
+                        cout << "Book not found!\n";
+                    }
+                    break;
+                }
+                case 2: {
+                    string isbn;
+                    cout << "Enter ISBN to borrow: "; getline(cin, isbn);
+                    Book* book = bm.findBook(isbn);
+                    if(book && book->quantity > 0) {
+                        book->quantity--;
+                        cout << "Book borrowed!\n";
+                    } else {
+                        cout << "Book unavailable!\n";
+                    }
+                    break;
+                }
+                case 3: {
+                    string isbn;
+                    cout << "Enter ISBN to return: "; getline(cin, isbn);
+                    Book* book = bm.findBook(isbn);
+                    if(book) {
+                        book->quantity++;
+                        cout << "Book returned!\n";
+                    } else {
+                        cout << "Invalid ISBN!\n";
+                    }
+                    break;
+                }
+            }
+        } while(choice != 4);
+    }
+};
+
+int main() {
+    cout << "Welcome to Library Management System!\n\n";
+    BookManager bm;
+
+    int choice;
+    do {
+        cout << "1. Librarian\n2. User 1\n3. User 2\n4. Exit\nChoice: ";
+        cin >> choice;
+
+        User* user = nullptr;
+        switch(choice) {
+            case 1: user = new Librarian(); break;
+            case 2: user = new Member(1); break;
+            case 3: user = new Member(2); break;
+        }
+
+        if(user) {
+            user->showMenu(bm);
+            delete user;
+        }
+    } while(choice != 4);
+
+    return 0;
+}
