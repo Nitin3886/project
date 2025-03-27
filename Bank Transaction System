@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+// Structured code for Bank Transaction System
 using namespace std;
 
 struct Book {
