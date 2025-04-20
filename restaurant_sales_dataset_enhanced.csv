@@ -1,0 +1,201 @@
+OrderID,Date,Location,City,State,Latitude,Longitude,Item,Category,Quantity,Price,TotalSales,CustomerType,PaymentMethod,Cost,Profit,Hour,DayOfWeek,Month
+1001,2024-03-23,Downtown,Chicago,IL,41.8781,-87.6298,Fries,Snacks,5,2.99,14.95,Regular,Online,1.62,6.849999999999998,19,Saturday,March
+1002,2024-03-07,Central Outlet,New York,NY,40.7128,-74.006,Sushi,Japanese,4,10.99,43.96,New,Online,7.4,14.36,19,Thursday,March
+1003,2024-03-01,West Branch,Los Angeles,CA,34.0522,-118.2437,Sushi,Japanese,1,10.99,10.99,Regular,Credit Card,8.77,2.2200000000000006,19,Friday,March
+1004,2024-03-29,Downtown,Chicago,IL,41.8781,-87.6298,Wrap,Healthy,2,6.99,13.98,New,Cash,3.67,6.640000000000001,14,Friday,March
+1005,2024-01-09,West Branch,Los Angeles,CA,34.0522,-118.2437,Smoothie,Beverages,5,4.99,24.95,Regular,Credit Card,2.69,11.5,17,Tuesday,January
+1006,2024-03-19,Central Outlet,New York,NY,40.7128,-74.006,Sushi,Japanese,5,10.99,54.95,Regular,Credit Card,6.25,23.700000000000003,21,Tuesday,March
+1007,2024-01-28,South Point,Houston,TX,29.7604,-95.3698,Wrap,Healthy,1,6.99,6.99,New,Online,4.89,2.1000000000000005,10,Sunday,January
+1008,2024-03-30,Downtown,Chicago,IL,41.8781,-87.6298,Salad,Healthy,3,6.49,19.47,Regular,Cash,3.87,7.859999999999999,20,Saturday,March
+1009,2024-02-18,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,1,4.99,4.99,New,Credit Card,3.02,1.9700000000000002,16,Sunday,February
+1010,2024-01-04,Downtown,Chicago,IL,41.8781,-87.6298,Burger,Fast Food,4,5.99,23.96,Regular,Online,3.41,10.32,19,Thursday,January
+1011,2024-02-04,East Side,Miami,FL,25.7617,-80.1918,Burger,Fast Food,5,5.99,29.95,Regular,Online,4.04,9.75,18,Sunday,February
+1012,2024-02-15,Downtown,Chicago,IL,41.8781,-87.6298,Pasta,Italian,5,7.99,39.95,New,Cash,6.17,9.100000000000001,13,Thursday,February
+1013,2024-03-13,South Point,Houston,TX,29.7604,-95.3698,Sushi,Japanese,5,10.99,54.95,Regular,Cash,7.33,18.300000000000004,18,Wednesday,March
+1014,2024-03-02,Downtown,Chicago,IL,41.8781,-87.6298,Fries,Snacks,1,2.99,2.99,New,Cash,1.62,1.37,18,Saturday,March
+1015,2024-02-19,South Point,Houston,TX,29.7604,-95.3698,Salad,Healthy,4,6.49,25.96,Regular,Credit Card,3.43,12.24,10,Monday,February
+1016,2024-02-24,Central Outlet,New York,NY,40.7128,-74.006,Fries,Snacks,5,2.99,14.95,Regular,Cash,1.65,6.699999999999999,17,Saturday,February
+1017,2024-03-15,West Branch,Los Angeles,CA,34.0522,-118.2437,Sushi,Japanese,5,10.99,54.95,Regular,Online,6.79,21.0,10,Friday,March
+1018,2024-03-17,South Point,Houston,TX,29.7604,-95.3698,Sushi,Japanese,4,10.99,43.96,New,Online,8.22,11.079999999999998,14,Sunday,March
+1019,2024-01-08,East Side,Miami,FL,25.7617,-80.1918,Salad,Healthy,4,6.49,25.96,Regular,Cash,4.92,6.280000000000001,9,Monday,January
+1020,2024-03-01,Central Outlet,New York,NY,40.7128,-74.006,Pizza,Fast Food,3,8.99,26.97,New,Credit Card,5.95,9.119999999999997,17,Friday,March
+1021,2024-02-01,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,2,4.99,9.98,New,Credit Card,3.72,2.54,10,Thursday,February
+1022,2024-01-28,East Side,Miami,FL,25.7617,-80.1918,Burger,Fast Food,2,5.99,11.98,Regular,Cash,3.62,4.74,16,Sunday,January
+1023,2024-03-12,Downtown,Chicago,IL,41.8781,-87.6298,Pizza,Fast Food,2,8.99,17.98,Regular,Online,4.76,8.46,11,Tuesday,March
+1024,2024-03-10,Downtown,Chicago,IL,41.8781,-87.6298,Salad,Healthy,4,6.49,25.96,Regular,Credit Card,4.57,7.68,10,Sunday,March
+1025,2024-03-16,Downtown,Chicago,IL,41.8781,-87.6298,Smoothie,Beverages,2,4.99,9.98,Regular,Cash,3.38,3.2200000000000006,13,Saturday,March
+1026,2024-03-01,East Side,Miami,FL,25.7617,-80.1918,Wrap,Healthy,4,6.99,27.96,Regular,Cash,5.01,7.920000000000002,21,Friday,March
+1027,2024-03-18,East Side,Miami,FL,25.7617,-80.1918,Burger,Fast Food,4,5.99,23.96,New,Cash,3.89,8.4,17,Monday,March
+1028,2024-01-29,Downtown,Chicago,IL,41.8781,-87.6298,Fries,Snacks,3,2.99,8.97,New,Online,2.33,1.9800000000000004,12,Monday,January
+1029,2024-03-07,Central Outlet,New York,NY,40.7128,-74.006,Salad,Healthy,5,6.49,32.45,New,Cash,4.26,11.150000000000006,11,Thursday,March
+1030,2024-01-28,South Point,Houston,TX,29.7604,-95.3698,Wrap,Healthy,4,6.99,27.96,Regular,Online,4.09,11.600000000000001,12,Sunday,January
+1031,2024-02-17,South Point,Houston,TX,29.7604,-95.3698,Sushi,Japanese,4,10.99,43.96,Regular,Credit Card,6.47,18.080000000000002,20,Saturday,February
+1032,2024-02-12,Downtown,Chicago,IL,41.8781,-87.6298,Sushi,Japanese,4,10.99,43.96,New,Cash,7.16,15.32,11,Monday,February
+1033,2024-02-17,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,1,4.99,4.99,Regular,Online,3.23,1.7600000000000002,12,Saturday,February
+1034,2024-03-27,Central Outlet,New York,NY,40.7128,-74.006,Sushi,Japanese,2,10.99,21.98,New,Credit Card,6.71,8.56,18,Wednesday,March
+1035,2024-03-17,Central Outlet,New York,NY,40.7128,-74.006,Wrap,Healthy,4,6.99,27.96,New,Cash,5.44,6.199999999999999,13,Sunday,March
+1036,2024-02-21,Downtown,Chicago,IL,41.8781,-87.6298,Wrap,Healthy,1,6.99,6.99,Regular,Credit Card,3.87,3.12,20,Wednesday,February
+1037,2024-02-08,South Point,Houston,TX,29.7604,-95.3698,Pizza,Fast Food,2,8.99,17.98,Regular,Credit Card,6.23,5.52,19,Thursday,February
+1038,2024-03-22,Central Outlet,New York,NY,40.7128,-74.006,Burger,Fast Food,1,5.99,5.99,Regular,Credit Card,3.65,2.3400000000000003,17,Friday,March
+1039,2024-03-17,South Point,Houston,TX,29.7604,-95.3698,Burger,Fast Food,4,5.99,23.96,New,Cash,3.61,9.520000000000001,15,Sunday,March
+1040,2024-03-17,South Point,Houston,TX,29.7604,-95.3698,Sushi,Japanese,4,10.99,43.96,Regular,Credit Card,6.34,18.6,14,Sunday,March
+1041,2024-03-29,Central Outlet,New York,NY,40.7128,-74.006,Smoothie,Beverages,2,4.99,9.98,Regular,Online,2.86,4.260000000000001,13,Friday,March
+1042,2024-03-16,Central Outlet,New York,NY,40.7128,-74.006,Pasta,Italian,4,7.99,31.96,New,Credit Card,4.06,15.720000000000002,16,Saturday,March
+1043,2024-02-11,South Point,Houston,TX,29.7604,-95.3698,Burger,Fast Food,3,5.99,17.97,Regular,Credit Card,3.95,6.119999999999997,21,Sunday,February
+1044,2024-03-08,East Side,Miami,FL,25.7617,-80.1918,Pasta,Italian,4,7.99,31.96,New,Cash,5.46,10.120000000000001,12,Friday,March
+1045,2024-02-22,South Point,Houston,TX,29.7604,-95.3698,Burger,Fast Food,5,5.99,29.95,Regular,Online,3.34,13.25,12,Thursday,February
+1046,2024-01-04,South Point,Houston,TX,29.7604,-95.3698,Smoothie,Beverages,2,4.99,9.98,New,Cash,2.87,4.24,15,Thursday,January
+1047,2024-01-19,Downtown,Chicago,IL,41.8781,-87.6298,Smoothie,Beverages,5,4.99,24.95,Regular,Cash,2.72,11.349999999999998,19,Friday,January
+1048,2024-02-02,East Side,Miami,FL,25.7617,-80.1918,Fries,Snacks,2,2.99,5.98,Regular,Cash,1.57,2.8400000000000003,21,Friday,February
+1049,2024-01-30,East Side,Miami,FL,25.7617,-80.1918,Pizza,Fast Food,5,8.99,44.95,New,Cash,5.51,17.400000000000006,14,Tuesday,January
+1050,2024-03-05,South Point,Houston,TX,29.7604,-95.3698,Fries,Snacks,4,2.99,11.96,Regular,Online,1.97,4.080000000000001,19,Tuesday,March
+1051,2024-01-28,Central Outlet,New York,NY,40.7128,-74.006,Sushi,Japanese,2,10.99,21.98,New,Online,6.99,8.0,21,Sunday,January
+1052,2024-03-21,Central Outlet,New York,NY,40.7128,-74.006,Pizza,Fast Food,1,8.99,8.99,New,Online,5.96,3.0300000000000002,9,Thursday,March
+1053,2024-03-27,South Point,Houston,TX,29.7604,-95.3698,Pizza,Fast Food,4,8.99,35.96,Regular,Credit Card,6.71,9.120000000000001,11,Wednesday,March
+1054,2024-02-22,West Branch,Los Angeles,CA,34.0522,-118.2437,Wrap,Healthy,3,6.99,20.97,New,Online,4.34,7.949999999999999,9,Thursday,February
+1055,2024-01-29,East Side,Miami,FL,25.7617,-80.1918,Pizza,Fast Food,2,8.99,17.98,New,Online,4.88,8.22,10,Monday,January
+1056,2024-03-29,South Point,Houston,TX,29.7604,-95.3698,Burger,Fast Food,3,5.99,17.97,New,Credit Card,3.76,6.6899999999999995,21,Friday,March
+1057,2024-02-14,East Side,Miami,FL,25.7617,-80.1918,Pasta,Italian,1,7.99,7.99,New,Credit Card,6.31,1.6800000000000006,21,Wednesday,February
+1058,2024-02-05,Downtown,Chicago,IL,41.8781,-87.6298,Burger,Fast Food,5,5.99,29.95,Regular,Cash,4.64,6.75,14,Monday,February
+1059,2024-01-18,South Point,Houston,TX,29.7604,-95.3698,Pizza,Fast Food,3,8.99,26.97,New,Credit Card,4.82,12.509999999999998,10,Thursday,January
+1060,2024-02-04,West Branch,Los Angeles,CA,34.0522,-118.2437,Wrap,Healthy,5,6.99,34.95,New,Cash,3.69,16.500000000000004,20,Sunday,February
+1061,2024-03-13,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,5,4.99,24.95,New,Credit Card,2.67,11.6,9,Wednesday,March
+1062,2024-03-08,East Side,Miami,FL,25.7617,-80.1918,Burger,Fast Food,2,5.99,11.98,New,Cash,4.65,2.6799999999999997,10,Friday,March
+1063,2024-01-15,Downtown,Chicago,IL,41.8781,-87.6298,Sushi,Japanese,5,10.99,54.95,Regular,Online,6.02,24.850000000000005,12,Monday,January
+1064,2024-03-03,West Branch,Los Angeles,CA,34.0522,-118.2437,Burger,Fast Food,4,5.99,23.96,Regular,Online,3.8,8.760000000000002,14,Sunday,March
+1065,2024-03-11,Central Outlet,New York,NY,40.7128,-74.006,Pizza,Fast Food,2,8.99,17.98,New,Online,5.8,6.380000000000001,18,Monday,March
+1066,2024-01-20,South Point,Houston,TX,29.7604,-95.3698,Burger,Fast Food,4,5.99,23.96,Regular,Online,3.38,10.440000000000001,10,Saturday,January
+1067,2024-03-22,Downtown,Chicago,IL,41.8781,-87.6298,Burger,Fast Food,3,5.99,17.97,Regular,Cash,4.11,5.639999999999997,18,Friday,March
+1068,2024-02-19,East Side,Miami,FL,25.7617,-80.1918,Pasta,Italian,4,7.99,31.96,New,Cash,5.46,10.120000000000001,18,Monday,February
+1069,2024-02-22,West Branch,Los Angeles,CA,34.0522,-118.2437,Pasta,Italian,1,7.99,7.99,New,Cash,5.39,2.6000000000000005,12,Thursday,February
+1070,2024-03-19,Central Outlet,New York,NY,40.7128,-74.006,Fries,Snacks,4,2.99,11.96,New,Online,1.82,4.680000000000001,14,Tuesday,March
+1071,2024-01-01,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,2,4.99,9.98,New,Online,3.61,2.7600000000000007,19,Monday,January
+1072,2024-03-21,Central Outlet,New York,NY,40.7128,-74.006,Sushi,Japanese,5,10.99,54.95,New,Online,6.49,22.5,20,Thursday,March
+1073,2024-03-28,Downtown,Chicago,IL,41.8781,-87.6298,Wrap,Healthy,5,6.99,34.95,Regular,Cash,4.17,14.100000000000001,15,Thursday,March
+1074,2024-01-15,Downtown,Chicago,IL,41.8781,-87.6298,Sushi,Japanese,5,10.99,54.95,Regular,Credit Card,5.59,27.000000000000004,13,Monday,January
+1075,2024-01-18,South Point,Houston,TX,29.7604,-95.3698,Sushi,Japanese,4,10.99,43.96,New,Online,7.89,12.400000000000002,10,Thursday,January
+1076,2024-03-22,Central Outlet,New York,NY,40.7128,-74.006,Wrap,Healthy,4,6.99,27.96,Regular,Online,3.8,12.760000000000002,20,Friday,March
+1077,2024-01-26,West Branch,Los Angeles,CA,34.0522,-118.2437,Salad,Healthy,4,6.49,25.96,New,Cash,4.06,9.720000000000002,21,Friday,January
+1078,2024-02-17,South Point,Houston,TX,29.7604,-95.3698,Salad,Healthy,4,6.49,25.96,Regular,Online,4.79,6.800000000000001,13,Saturday,February
+1079,2024-03-21,East Side,Miami,FL,25.7617,-80.1918,Pizza,Fast Food,5,8.99,44.95,New,Cash,6.46,12.650000000000006,16,Thursday,March
+1080,2024-02-01,South Point,Houston,TX,29.7604,-95.3698,Burger,Fast Food,2,5.99,11.98,New,Online,3.59,4.800000000000001,15,Thursday,February
+1081,2024-01-01,Central Outlet,New York,NY,40.7128,-74.006,Burger,Fast Food,3,5.99,17.97,Regular,Online,4.67,3.959999999999999,21,Monday,January
+1082,2024-02-10,East Side,Miami,FL,25.7617,-80.1918,Pasta,Italian,2,7.99,15.98,Regular,Credit Card,5.78,4.42,18,Saturday,February
+1083,2024-02-21,South Point,Houston,TX,29.7604,-95.3698,Salad,Healthy,3,6.49,19.47,New,Online,3.94,7.649999999999999,10,Wednesday,February
+1084,2024-03-07,Downtown,Chicago,IL,41.8781,-87.6298,Smoothie,Beverages,3,4.99,14.97,New,Credit Card,3.29,5.1,18,Thursday,March
+1085,2024-03-09,East Side,Miami,FL,25.7617,-80.1918,Salad,Healthy,1,6.49,6.49,New,Credit Card,3.38,3.1100000000000003,12,Saturday,March
+1086,2024-03-25,West Branch,Los Angeles,CA,34.0522,-118.2437,Salad,Healthy,2,6.49,12.98,New,Online,4.65,3.6799999999999997,17,Monday,March
+1087,2024-01-05,South Point,Houston,TX,29.7604,-95.3698,Smoothie,Beverages,5,4.99,24.95,New,Credit Card,2.61,11.9,18,Friday,January
+1088,2024-02-19,East Side,Miami,FL,25.7617,-80.1918,Fries,Snacks,2,2.99,5.98,Regular,Credit Card,1.75,2.4800000000000004,15,Monday,February
+1089,2024-03-08,West Branch,Los Angeles,CA,34.0522,-118.2437,Smoothie,Beverages,5,4.99,24.95,New,Cash,3.01,9.9,11,Friday,March
+1090,2024-03-24,Central Outlet,New York,NY,40.7128,-74.006,Pasta,Italian,3,7.99,23.97,New,Credit Card,4.08,11.729999999999999,16,Sunday,March
+1091,2024-01-05,South Point,Houston,TX,29.7604,-95.3698,Wrap,Healthy,5,6.99,34.95,New,Cash,4.13,14.300000000000004,17,Friday,January
+1092,2024-02-24,Central Outlet,New York,NY,40.7128,-74.006,Pasta,Italian,5,7.99,39.95,New,Credit Card,4.17,19.1,15,Saturday,February
+1093,2024-01-26,West Branch,Los Angeles,CA,34.0522,-118.2437,Pasta,Italian,1,7.99,7.99,New,Cash,5.43,2.5600000000000005,17,Friday,January
+1094,2024-01-05,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,2,4.99,9.98,Regular,Credit Card,3.31,3.3600000000000003,15,Friday,January
+1095,2024-03-14,West Branch,Los Angeles,CA,34.0522,-118.2437,Fries,Snacks,2,2.99,5.98,Regular,Online,2.15,1.6800000000000006,14,Thursday,March
+1096,2024-03-02,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,4,4.99,19.96,Regular,Credit Card,2.84,8.600000000000001,18,Saturday,March
+1097,2024-02-11,Downtown,Chicago,IL,41.8781,-87.6298,Pizza,Fast Food,1,8.99,8.99,New,Cash,6.49,2.5,10,Sunday,February
+1098,2024-03-16,Downtown,Chicago,IL,41.8781,-87.6298,Burger,Fast Food,4,5.99,23.96,Regular,Cash,3.32,10.680000000000001,12,Saturday,March
+1099,2024-01-17,Downtown,Chicago,IL,41.8781,-87.6298,Pizza,Fast Food,2,8.99,17.98,New,Online,6.22,5.540000000000001,9,Wednesday,January
+1100,2024-01-01,East Side,Miami,FL,25.7617,-80.1918,Pizza,Fast Food,4,8.99,35.96,New,Credit Card,6.25,10.96,18,Monday,January
+1101,2024-02-15,Downtown,Chicago,IL,41.8781,-87.6298,Salad,Healthy,2,6.49,12.98,New,Cash,5.15,2.6799999999999997,11,Thursday,February
+1102,2024-03-06,Downtown,Chicago,IL,41.8781,-87.6298,Salad,Healthy,4,6.49,25.96,New,Cash,5.05,5.760000000000002,10,Wednesday,March
+1103,2024-01-26,South Point,Houston,TX,29.7604,-95.3698,Burger,Fast Food,3,5.99,17.97,Regular,Online,4.01,5.9399999999999995,11,Friday,January
+1104,2024-02-17,Central Outlet,New York,NY,40.7128,-74.006,Pasta,Italian,3,7.99,23.97,New,Online,6.35,4.920000000000002,18,Saturday,February
+1105,2024-01-24,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,1,4.99,4.99,New,Credit Card,3.05,1.9400000000000004,18,Wednesday,January
+1106,2024-02-14,East Side,Miami,FL,25.7617,-80.1918,Salad,Healthy,1,6.49,6.49,Regular,Online,3.27,3.22,20,Wednesday,February
+1107,2024-01-04,West Branch,Los Angeles,CA,34.0522,-118.2437,Smoothie,Beverages,4,4.99,19.96,Regular,Cash,2.94,8.200000000000001,15,Thursday,January
+1108,2024-02-02,Downtown,Chicago,IL,41.8781,-87.6298,Salad,Healthy,5,6.49,32.45,Regular,Online,5.05,7.200000000000003,14,Friday,February
+1109,2024-02-01,Central Outlet,New York,NY,40.7128,-74.006,Pasta,Italian,2,7.99,15.98,Regular,Online,4.11,7.76,12,Thursday,February
+1110,2024-01-25,Downtown,Chicago,IL,41.8781,-87.6298,Wrap,Healthy,1,6.99,6.99,Regular,Credit Card,5.4,1.5899999999999999,20,Thursday,January
+1111,2024-01-10,South Point,Houston,TX,29.7604,-95.3698,Salad,Healthy,4,6.49,25.96,Regular,Credit Card,4.37,8.48,17,Wednesday,January
+1112,2024-03-31,Central Outlet,New York,NY,40.7128,-74.006,Sushi,Japanese,2,10.99,21.98,New,Credit Card,8.47,5.039999999999999,14,Sunday,March
+1113,2024-02-27,East Side,Miami,FL,25.7617,-80.1918,Pasta,Italian,5,7.99,39.95,Regular,Cash,6.09,9.500000000000004,18,Tuesday,February
+1114,2024-02-10,West Branch,Los Angeles,CA,34.0522,-118.2437,Sushi,Japanese,4,10.99,43.96,Regular,Online,5.93,20.240000000000002,19,Saturday,February
+1115,2024-02-15,Central Outlet,New York,NY,40.7128,-74.006,Smoothie,Beverages,2,4.99,9.98,Regular,Online,2.77,4.44,20,Thursday,February
+1116,2024-02-01,Downtown,Chicago,IL,41.8781,-87.6298,Salad,Healthy,1,6.49,6.49,New,Cash,4.43,2.0600000000000005,20,Thursday,February
+1117,2024-02-27,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,4,4.99,19.96,Regular,Cash,2.62,9.48,18,Tuesday,February
+1118,2024-03-27,East Side,Miami,FL,25.7617,-80.1918,Burger,Fast Food,4,5.99,23.96,Regular,Online,4.72,5.080000000000002,19,Wednesday,March
+1119,2024-02-20,South Point,Houston,TX,29.7604,-95.3698,Burger,Fast Food,4,5.99,23.96,Regular,Credit Card,3.52,9.88,10,Tuesday,February
+1120,2024-01-01,Downtown,Chicago,IL,41.8781,-87.6298,Wrap,Healthy,1,6.99,6.99,New,Cash,5.18,1.8100000000000005,12,Monday,January
+1121,2024-01-10,Downtown,Chicago,IL,41.8781,-87.6298,Salad,Healthy,5,6.49,32.45,Regular,Cash,3.86,13.150000000000002,9,Wednesday,January
+1122,2024-01-09,Central Outlet,New York,NY,40.7128,-74.006,Sushi,Japanese,2,10.99,21.98,New,Credit Card,5.6,10.780000000000001,16,Tuesday,January
+1123,2024-01-24,West Branch,Los Angeles,CA,34.0522,-118.2437,Pasta,Italian,5,7.99,39.95,New,Credit Card,5.04,14.750000000000004,17,Wednesday,January
+1124,2024-02-22,Central Outlet,New York,NY,40.7128,-74.006,Salad,Healthy,3,6.49,19.47,Regular,Credit Card,4.5,5.969999999999999,20,Thursday,February
+1125,2024-01-18,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,1,4.99,4.99,New,Credit Card,3.25,1.7400000000000002,18,Thursday,January
+1126,2024-03-29,West Branch,Los Angeles,CA,34.0522,-118.2437,Pizza,Fast Food,4,8.99,35.96,Regular,Credit Card,6.82,8.68,16,Friday,March
+1127,2024-01-04,Downtown,Chicago,IL,41.8781,-87.6298,Pasta,Italian,4,7.99,31.96,Regular,Credit Card,4.97,12.080000000000002,9,Thursday,January
+1128,2024-02-02,Central Outlet,New York,NY,40.7128,-74.006,Salad,Healthy,5,6.49,32.45,New,Online,4.23,11.3,10,Friday,February
+1129,2024-01-26,Downtown,Chicago,IL,41.8781,-87.6298,Wrap,Healthy,5,6.99,34.95,Regular,Cash,5.12,9.350000000000001,18,Friday,January
+1130,2024-03-24,East Side,Miami,FL,25.7617,-80.1918,Pasta,Italian,5,7.99,39.95,Regular,Cash,5.57,12.100000000000001,20,Sunday,March
+1131,2024-01-19,Downtown,Chicago,IL,41.8781,-87.6298,Salad,Healthy,1,6.49,6.49,Regular,Cash,3.81,2.68,15,Friday,January
+1132,2024-02-23,Central Outlet,New York,NY,40.7128,-74.006,Pizza,Fast Food,4,8.99,35.96,New,Credit Card,6.57,9.68,9,Friday,February
+1133,2024-03-17,East Side,Miami,FL,25.7617,-80.1918,Sushi,Japanese,3,10.99,32.97,Regular,Cash,7.67,9.96,12,Sunday,March
+1134,2024-01-28,West Branch,Los Angeles,CA,34.0522,-118.2437,Smoothie,Beverages,1,4.99,4.99,Regular,Cash,3.52,1.4700000000000002,15,Sunday,January
+1135,2024-03-03,East Side,Miami,FL,25.7617,-80.1918,Pizza,Fast Food,1,8.99,8.99,Regular,Online,6.31,2.6800000000000006,12,Sunday,March
+1136,2024-02-03,South Point,Houston,TX,29.7604,-95.3698,Fries,Snacks,5,2.99,14.95,New,Credit Card,2.02,4.85,15,Saturday,February
+1137,2024-02-10,South Point,Houston,TX,29.7604,-95.3698,Fries,Snacks,2,2.99,5.98,New,Cash,1.56,2.8600000000000003,16,Saturday,February
+1138,2024-02-01,Central Outlet,New York,NY,40.7128,-74.006,Sushi,Japanese,3,10.99,32.97,New,Credit Card,6.38,13.829999999999998,12,Thursday,February
+1139,2024-01-04,West Branch,Los Angeles,CA,34.0522,-118.2437,Fries,Snacks,2,2.99,5.98,New,Online,2.25,1.4800000000000004,18,Thursday,January
+1140,2024-02-16,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,1,4.99,4.99,Regular,Credit Card,2.8,2.1900000000000004,12,Friday,February
+1141,2024-03-09,Central Outlet,New York,NY,40.7128,-74.006,Pasta,Italian,4,7.99,31.96,New,Credit Card,5.33,10.64,10,Saturday,March
+1142,2024-03-21,South Point,Houston,TX,29.7604,-95.3698,Burger,Fast Food,5,5.99,29.95,Regular,Online,3.3,13.45,11,Thursday,March
+1143,2024-02-04,West Branch,Los Angeles,CA,34.0522,-118.2437,Sushi,Japanese,1,10.99,10.99,New,Cash,5.91,5.08,21,Sunday,February
+1144,2024-03-29,West Branch,Los Angeles,CA,34.0522,-118.2437,Salad,Healthy,1,6.49,6.49,Regular,Credit Card,4.53,1.96,11,Friday,March
+1145,2024-03-30,Downtown,Chicago,IL,41.8781,-87.6298,Salad,Healthy,5,6.49,32.45,New,Credit Card,4.37,10.600000000000001,14,Saturday,March
+1146,2024-01-18,South Point,Houston,TX,29.7604,-95.3698,Pasta,Italian,3,7.99,23.97,Regular,Cash,4.22,11.309999999999999,14,Thursday,January
+1147,2024-01-16,South Point,Houston,TX,29.7604,-95.3698,Pasta,Italian,4,7.99,31.96,New,Credit Card,4.84,12.600000000000001,13,Tuesday,January
+1148,2024-02-17,South Point,Houston,TX,29.7604,-95.3698,Salad,Healthy,1,6.49,6.49,New,Cash,3.74,2.75,14,Saturday,February
+1149,2024-03-03,South Point,Houston,TX,29.7604,-95.3698,Wrap,Healthy,1,6.99,6.99,Regular,Credit Card,3.74,3.25,18,Sunday,March
+1150,2024-02-18,West Branch,Los Angeles,CA,34.0522,-118.2437,Salad,Healthy,4,6.49,25.96,Regular,Cash,4.05,9.760000000000002,21,Sunday,February
+1151,2024-03-04,Downtown,Chicago,IL,41.8781,-87.6298,Burger,Fast Food,2,5.99,11.98,New,Credit Card,3.92,4.140000000000001,12,Monday,March
+1152,2024-01-04,West Branch,Los Angeles,CA,34.0522,-118.2437,Burger,Fast Food,3,5.99,17.97,Regular,Credit Card,3.81,6.539999999999999,16,Thursday,January
+1153,2024-02-10,East Side,Miami,FL,25.7617,-80.1918,Pasta,Italian,4,7.99,31.96,New,Online,5.11,11.52,21,Saturday,February
+1154,2024-02-09,Central Outlet,New York,NY,40.7128,-74.006,Burger,Fast Food,1,5.99,5.99,New,Credit Card,3.95,2.04,18,Friday,February
+1155,2024-03-07,Downtown,Chicago,IL,41.8781,-87.6298,Burger,Fast Food,1,5.99,5.99,New,Cash,3.83,2.16,11,Thursday,March
+1156,2024-01-03,East Side,Miami,FL,25.7617,-80.1918,Wrap,Healthy,4,6.99,27.96,Regular,Cash,4.73,9.04,9,Wednesday,January
+1157,2024-03-31,East Side,Miami,FL,25.7617,-80.1918,Burger,Fast Food,1,5.99,5.99,New,Credit Card,3.07,2.9200000000000004,15,Sunday,March
+1158,2024-01-07,Central Outlet,New York,NY,40.7128,-74.006,Burger,Fast Food,2,5.99,11.98,New,Credit Card,3.78,4.420000000000001,16,Sunday,January
+1159,2024-01-18,Central Outlet,New York,NY,40.7128,-74.006,Burger,Fast Food,3,5.99,17.97,Regular,Cash,4.03,5.879999999999999,17,Thursday,January
+1160,2024-03-22,Downtown,Chicago,IL,41.8781,-87.6298,Wrap,Healthy,4,6.99,27.96,New,Online,5.16,7.32,10,Friday,March
+1161,2024-03-20,East Side,Miami,FL,25.7617,-80.1918,Smoothie,Beverages,1,4.99,4.99,Regular,Credit Card,2.68,2.31,20,Wednesday,March
+1162,2024-02-23,Central Outlet,New York,NY,40.7128,-74.006,Smoothie,Beverages,4,4.99,19.96,Regular,Online,2.67,9.280000000000001,10,Friday,February
+1163,2024-02-07,South Point,Houston,TX,29.7604,-95.3698,Smoothie,Beverages,5,4.99,24.95,New,Cash,3.24,8.749999999999996,19,Wednesday,February
+1164,2024-01-08,Downtown,Chicago,IL,41.8781,-87.6298,Sushi,Japanese,5,10.99,54.95,Regular,Cash,6.62,21.85,15,Monday,January
+1165,2024-02-09,Downtown,Chicago,IL,41.8781,-87.6298,Smoothie,Beverages,3,4.99,14.97,New,Online,3.43,4.68,19,Friday,February
+1166,2024-03-14,Downtown,Chicago,IL,41.8781,-87.6298,Pasta,Italian,5,7.99,39.95,New,Credit Card,4.19,19.0,19,Thursday,March
+1167,2024-01-16,East Side,Miami,FL,25.7617,-80.1918,Sushi,Japanese,3,10.99,32.97,New,Online,5.78,15.629999999999999,10,Tuesday,January
+1168,2024-01-30,Downtown,Chicago,IL,41.8781,-87.6298,Salad,Healthy,1,6.49,6.49,Regular,Online,3.41,3.08,10,Tuesday,January
+1169,2024-03-05,Central Outlet,New York,NY,40.7128,-74.006,Salad,Healthy,2,6.49,12.98,Regular,Credit Card,5.16,2.66,17,Tuesday,March
+1170,2024-03-26,West Branch,Los Angeles,CA,34.0522,-118.2437,Salad,Healthy,2,6.49,12.98,New,Cash,4.16,4.66,12,Tuesday,March
+1171,2024-03-25,Downtown,Chicago,IL,41.8781,-87.6298,Pasta,Italian,2,7.99,15.98,New,Online,5.18,5.620000000000001,15,Monday,March
+1172,2024-03-30,South Point,Houston,TX,29.7604,-95.3698,Smoothie,Beverages,1,4.99,4.99,New,Credit Card,3.42,1.5700000000000003,20,Saturday,March
+1173,2024-03-23,Downtown,Chicago,IL,41.8781,-87.6298,Pizza,Fast Food,5,8.99,44.95,New,Credit Card,5.53,17.3,20,Saturday,March
+1174,2024-01-27,East Side,Miami,FL,25.7617,-80.1918,Pasta,Italian,4,7.99,31.96,Regular,Online,5.75,8.96,10,Saturday,January
+1175,2024-01-22,West Branch,Los Angeles,CA,34.0522,-118.2437,Fries,Snacks,1,2.99,2.99,New,Online,2.05,0.9400000000000004,13,Monday,January
+1176,2024-03-27,Downtown,Chicago,IL,41.8781,-87.6298,Sushi,Japanese,5,10.99,54.95,Regular,Online,8.64,11.75,21,Wednesday,March
+1177,2024-02-29,West Branch,Los Angeles,CA,34.0522,-118.2437,Smoothie,Beverages,3,4.99,14.97,New,Online,3.0,5.970000000000001,14,Thursday,February
+1178,2024-01-06,East Side,Miami,FL,25.7617,-80.1918,Sushi,Japanese,4,10.99,43.96,Regular,Credit Card,7.75,12.96,16,Saturday,January
+1179,2024-02-28,Central Outlet,New York,NY,40.7128,-74.006,Burger,Fast Food,4,5.99,23.96,New,Cash,3.8,8.760000000000002,14,Wednesday,February
+1180,2024-02-05,East Side,Miami,FL,25.7617,-80.1918,Sushi,Japanese,4,10.99,43.96,New,Cash,8.22,11.079999999999998,10,Monday,February
+1181,2024-02-09,East Side,Miami,FL,25.7617,-80.1918,Salad,Healthy,3,6.49,19.47,Regular,Cash,4.72,5.309999999999999,14,Friday,February
+1182,2024-02-28,South Point,Houston,TX,29.7604,-95.3698,Pasta,Italian,2,7.99,15.98,Regular,Credit Card,4.25,7.48,11,Wednesday,February
+1183,2024-03-11,West Branch,Los Angeles,CA,34.0522,-118.2437,Pasta,Italian,2,7.99,15.98,Regular,Credit Card,5.01,5.960000000000001,10,Monday,March
+1184,2024-03-31,Central Outlet,New York,NY,40.7128,-74.006,Wrap,Healthy,3,6.99,20.97,Regular,Cash,3.99,8.999999999999998,17,Sunday,March
+1185,2024-02-19,South Point,Houston,TX,29.7604,-95.3698,Burger,Fast Food,5,5.99,29.95,New,Online,4.19,8.999999999999996,18,Monday,February
+1186,2024-02-14,West Branch,Los Angeles,CA,34.0522,-118.2437,Burger,Fast Food,4,5.99,23.96,Regular,Cash,3.33,10.64,21,Wednesday,February
+1187,2024-01-20,West Branch,Los Angeles,CA,34.0522,-118.2437,Fries,Snacks,4,2.99,11.96,New,Online,2.08,3.6400000000000006,16,Saturday,January
+1188,2024-03-27,South Point,Houston,TX,29.7604,-95.3698,Pasta,Italian,1,7.99,7.99,New,Credit Card,5.7,2.29,13,Wednesday,March
+1189,2024-02-21,South Point,Houston,TX,29.7604,-95.3698,Fries,Snacks,4,2.99,11.96,Regular,Cash,2.09,3.6000000000000014,14,Wednesday,February
+1190,2024-02-15,West Branch,Los Angeles,CA,34.0522,-118.2437,Fries,Snacks,4,2.99,11.96,Regular,Cash,1.63,5.440000000000001,19,Thursday,February
+1191,2024-03-26,West Branch,Los Angeles,CA,34.0522,-118.2437,Fries,Snacks,5,2.99,14.95,New,Online,1.68,6.549999999999999,14,Tuesday,March
+1192,2024-01-02,South Point,Houston,TX,29.7604,-95.3698,Smoothie,Beverages,2,4.99,9.98,Regular,Online,2.93,4.12,21,Tuesday,January
+1193,2024-03-02,East Side,Miami,FL,25.7617,-80.1918,Fries,Snacks,4,2.99,11.96,Regular,Online,1.54,5.800000000000001,21,Saturday,March
+1194,2024-01-28,East Side,Miami,FL,25.7617,-80.1918,Sushi,Japanese,2,10.99,21.98,New,Credit Card,7.21,7.5600000000000005,18,Sunday,January
+1195,2024-02-05,Central Outlet,New York,NY,40.7128,-74.006,Sushi,Japanese,5,10.99,54.95,Regular,Online,6.82,20.85,16,Monday,February
+1196,2024-02-10,South Point,Houston,TX,29.7604,-95.3698,Salad,Healthy,5,6.49,32.45,Regular,Cash,3.31,15.900000000000002,13,Saturday,February
+1197,2024-01-02,West Branch,Los Angeles,CA,34.0522,-118.2437,Pasta,Italian,2,7.99,15.98,Regular,Online,4.99,6.0,18,Tuesday,January
+1198,2024-02-09,Central Outlet,New York,NY,40.7128,-74.006,Wrap,Healthy,5,6.99,34.95,Regular,Credit Card,4.78,11.05,13,Friday,February
+1199,2024-03-19,South Point,Houston,TX,29.7604,-95.3698,Smoothie,Beverages,2,4.99,9.98,New,Credit Card,2.85,4.28,11,Tuesday,March
+1200,2024-02-09,East Side,Miami,FL,25.7617,-80.1918,Sushi,Japanese,3,10.99,32.97,Regular,Credit Card,8.14,8.549999999999997,18,Friday,February
