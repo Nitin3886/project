@@ -1,0 +1,96 @@
+# GLOBAL SUPERSTORE SALES ANALYSIS IN R
+
+# 📦 Load Required Libraries
+install.packages("readxl")
+install.packages("tidyverse")
+install.packages("lubridate")
+install.packages("scales")
+
+library(readxl)
+library(tidyverse)
+library(lubridate)
+library(scales)
+
+# 📥 Load Dataset
+# Make sure the Excel file is in your working directory
+# Replace with your actual file name if different
+superstore <- read_excel("Global Superstore.xlsx")
+
+# 🧹 Data Cleaning & Preparation
+superstore <- superstore %>%
+  mutate(
+    Order_Date = as.Date(`Order Date`),
+    Month = month(Order_Date, label = TRUE),
+    Day = wday(Order_Date, label = TRUE),
+    Year = year(Order_Date)
+  )
+
+# 💰 Total Sales and Profit Summary
+total_sales <- sum(superstore$Sales, na.rm = TRUE)
+total_profit <- sum(superstore$Profit, na.rm = TRUE)
+
+cat("📊 Total Sales: ₹", total_sales, "\n")
+cat("💸 Total Profit: ₹", total_profit, "\n")
+
+# 📈 Daily Sales Trend Plot
+daily_sales <- superstore %>%
+  group_by(Order_Date) %>%
+  summarise(Daily_Sales = sum(Sales, na.rm = TRUE))
+
+ggplot(daily_sales, aes(x = Order_Date, y = Daily_Sales)) +
+  geom_line(color = "steelblue", size = 1.1) +
+  labs(title = "📅 Daily Sales Trend", x = "Date", y = "Sales (₹)") +
+  scale_y_continuous(labels = comma) +
+  theme_minimal()
+
+# 🏷️ Top 10 Products by Sales
+top_products <- superstore %>%
+  group_by(Product_Name = `Product Name`) %>%
+  summarise(Total_Sales = sum(Sales, na.rm = TRUE)) %>%
+  arrange(desc(Total_Sales)) %>%
+  slice(1:10)
+
+ggplot(top_products, aes(x = reorder(Product_Name, Total_Sales), y = Total_Sales, fill = Product_Name)) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  labs(title = "🏆 Top 10 Best-Selling Products", x = "Product", y = "Sales (₹)") +
+  theme_minimal()
+
+# 🌍 Sales by Region
+region_sales <- superstore %>%
+  group_by(Region) %>%
+  summarise(Total_Sales = sum(Sales, na.rm = TRUE)) %>%
+  arrange(desc(Total_Sales))
+
+ggplot(region_sales, aes(x = reorder(Region, Total_Sales), y = Total_Sales, fill = Region)) +
+  geom_col() +
+  coord_flip() +
+  labs(title = "🌎 Sales by Region", x = "Region", y = "Sales (₹)") +
+  theme_minimal()
+
+# 🔥 Heatmap: Sales by Category and Day of Week
+heatmap_data <- superstore %>%
+  group_by(Category, Day) %>%
+  summarise(Total_Sales = sum(Sales, na.rm = TRUE))
+
+ggplot(heatmap_data, aes(x = Day, y = Category, fill = Total_Sales)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient(low = "#cce5ff", high = "#004085") +
+  labs(title = "🔥 Sales Heatmap by Category & Day", x = "Day of Week", y = "Category", fill = "Sales (₹)") +
+  theme_minimal()
+
+# 📊 Profit vs Sales by Sub-Category
+subcat_analysis <- superstore %>%
+  group_by(Sub_Category = `Sub-Category`) %>%
+  summarise(
+    Total_Sales = sum(Sales, na.rm = TRUE),
+    Total_Profit = sum(Profit, na.rm = TRUE)
+  )
+
+ggplot(subcat_analysis, aes(x = Total_Sales, y = Total_Profit, label = Sub_Category)) +
+  geom_point(aes(color = Total_Profit), size = 4) +
+  geom_text(vjust = -0.5, size = 3) +
+  labs(title = "💹 Profit vs Sales by Sub-Category", x = "Total Sales (₹)", y = "Total Profit (₹)") +
+  scale_x_continuous(labels = comma) +
+  scale_y_continuous(labels = comma) +
+  theme_minimal()
